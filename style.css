@@ -1,0 +1,242 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.header-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header-images img {
+    margin: 5px;
+    max-width: 100px;
+}
+
+nav {
+    background-color: #ffa500;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.tour-packages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tour-packages article {
+    width: 45%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.tour-packages img {
+    width: 100%;
+    height: auto;
+}
+
+.tour-packages h2 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.tour-packages p {
+    margin: 10px;
+    color: #777;
+}
+
+.video-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .tour-packages article {
+        width: 100%;
+    }
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: left;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-right: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.gallery img {
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+nav {
+    background-color: #ff9900;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #cc7a00;
+}
+
+.content {
+    display: flex;
+    padding: 30px;
+}
+
+.tour-packages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 0.6;
+}
+
+
+.tour-packages article {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.tour-packages img {
+    width: 100%;
+    height: auto;
+}
+
+.tour-packages h2 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.tour-packages p {
+    margin: 10px;
+    color: #777;
+}
+
+.video-link {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.video-link iframe {
+    width: 90%;
+    height: 40%;
+    max-width: 100%;
+    border-radius: 9px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .video-link {
+        margin-top: 20px;
+    }
+}
+/* main {
+    padding: 20px;
+}
+
+.tour-packages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.tour-packages article {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.tour-packages img {
+    width: 100%;
+    height: auto;
+}
+
+.tour-packages h2 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.tour-packages p {
+    margin: 10px;
+    color: #777;
+}
+
+.video-link {
+    text-align: center;
+    margin: 20px 0;
+    grid-column: span 2; /* This makes the video section span across both columns */
